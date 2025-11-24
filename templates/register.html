@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block title %}Daftar | Musewave{% endblock %}
+
+{% block content %}
+<div class="auth-wise-container">
+  <!-- PANEL KIRI -->
+  <div class="auth-wise-left d-none d-md-flex">
+    <div class="auth-wise-left-inner">
+      <!-- Kapsul dengan logo besar (sama seperti login) -->
+      <div class="auth-pill logo-pill">
+        <img src="{{ url_for('static', filename='img/logomusik.png') }}"
+             alt="Logo Musewave" class="pill-logo-img">
+      </div>
+
+      <div class="auth-left-text mt-4">
+        <h1>START YOUR<br>SONIC JOURNEY.</h1>
+        <p>
+          Buat akun, beri rating pada lagu-lagu favoritmu, dan biarkan
+          Musewave mempelajari pola selera musikmu untuk menyiapkan
+          rekomendasi yang benar-benar cocok dengan vibe-mu.
+        </p>
+      </div>
+    </div>
+
+    <!-- Not musik animasi (sama seperti login) -->
+    <div class="music-note note-1">♪</div>
+    <div class="music-note note-2">♫</div>
+    <div class="music-note note-3">♪</div>
+  </div>
+
+  <!-- PANEL KANAN -->
+  <div class="auth-wise-right">
+    <div class="auth-wise-card">
+      <div class="auth-wise-logo">
+        <img src="{{ url_for('static', filename='img/logomusik.png') }}"
+             alt="Logo Musewave">
+        <span class="logo-text">MUSEWAVE</span>
+      </div>
+
+      <h2 class="auth-title">Create your account.</h2>
+      <p class="auth-subtitle">
+        Sudah punya akun?
+        <a href="{{ url_for('login') }}">Log in</a>
+      </p>
+
+      {% if error %}
+        <div class="alert alert-danger py-2 small">{{ error }}</div>
+      {% endif %}
+
+      <form method="post" class="auth-form">
+        <div class="mb-3">
+          <label class="form-label small">Email</label>
+          <input type="email" name="email"
+                 class="form-control auth-input" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label small">Password</label>
+          <input type="password" name="password"
+                 class="form-control auth-input" required>
+        </div>
+
+        <button type="submit" class="btn auth-btn-primary w-100 mb-3">
+          Sign up
+        </button>
+
+        <p class="small text-muted mb-0">
+          Password akan disimpan dalam bentuk hash untuk menjaga
+          keamanan akunmu.
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

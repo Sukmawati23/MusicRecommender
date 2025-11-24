@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block title %}Masuk | Musewave{% endblock %}
+
+{% block content %}
+<div class="auth-wise-container">
+  <!-- PANEL KIRI -->
+  <div class="auth-wise-left d-none d-md-flex">
+    <div class="auth-wise-left-inner">
+      <!-- Kapsul dengan logo besar -->
+      <div class="auth-pill logo-pill">
+        <img src="{{ url_for('static', filename='img/logomusik.png') }}"
+             alt="Logo Musewave" class="pill-logo-img">
+      </div>
+
+      <div class="auth-left-text mt-4">
+        <h1>FIND YOUR<br>TRUE VIBES.</h1>
+        <p>
+          Musewave membantu kamu menemukan lagu yang paling
+          <em>ngena</em> buat kamu. Cukup masuk, dengarkan, beri like
+          pada lagu favoritmu, dan biarkan sistem mencari musik dengan
+          vibe yang serupa dari pengguna lain yang mirip denganmu.
+        </p>
+      </div>
+    </div>
+
+    <!-- Not musik animasi (di kiri, tidak mengganggu layout) -->
+    <div class="music-note note-1">♪</div>
+    <div class="music-note note-2">♫</div>
+    <div class="music-note note-3">♪</div>
+  </div>
+
+  <!-- PANEL KANAN -->
+  <div class="auth-wise-right">
+    <div class="auth-wise-card">
+      <div class="auth-wise-logo">
+        <img src="{{ url_for('static', filename='img/logomusik.png') }}"
+             alt="Logo Musewave">
+        <span class="logo-text">MUSEWAVE</span>
+      </div>
+
+      <h2 class="auth-title">Welcome back.</h2>
+      <p class="auth-subtitle">
+        Baru di Musewave?
+        <a href="{{ url_for('register') }}">Sign up</a>
+      </p>
+
+      {% if error %}
+        <div class="alert alert-danger py-2 small">{{ error }}</div>
+      {% endif %}
+
+      <form method="post" class="auth-form">
+        <div class="mb-3">
+          <label class="form-label small">Your email address</label>
+          <input type="email" name="email"
+                 class="form-control auth-input" required>
+        </div>
+
+        <div class="mb-3">
+          <label class="form-label small">Your password</label>
+          <input type="password" name="password"
+                 class="form-control auth-input" required>
+        </div>
+
+        <button type="submit" class="btn auth-btn-primary w-100 mb-3">
+          Log in
+        </button>
+
+        <div class="d-flex justify-content-between align-items-center small text-muted">
+          <div>
+            <input type="checkbox" id="remember" class="form-check-input me-1">
+            <label for="remember" class="form-check-label">Remember me</label>
+          </div>
+          <a href="#" class="text-decoration-none">Trouble logging in?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
