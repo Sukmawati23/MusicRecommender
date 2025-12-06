@@ -1,0 +1,215 @@
+<!-- templates/home.html -->
+{% extends "base.html" %} {% block title %}Home | Musewave{% endblock %} {%
+block content %}
+<div class="container mt-4">
+  <!-- Header -->
+  <nav
+    class="navbar navbar-expand-lg navbar-light bg-light rounded mb-4 shadow-sm"
+  >
+    <div class="container-fluid">
+      <span class="navbar-brand fw-bold">🎵 Musewave</span>
+      <span class="navbar-text text-muted">Halo, {{ user_email }}</span>
+      <a href="{{ url_for('login') }}" class="btn btn-sm btn-outline-secondary"
+        >Logout</a
+      >
+    </div>
+  </nav>
+
+  <!-- Flash messages -->
+  {% with messages = get_flashed_messages(with_categories=true) %} {% if
+  messages %} {% for category, message in messages %}
+  <div
+    class="alert alert-{{ 'success' if category == 'success' else 'info' }} alert-dismissible fade show"
+    role="alert"
+  >
+    {{ message|safe }}
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+  {% endfor %} {% endif %} {% endwith %}
+
+  <!-- 🔍 Jelajahi Lagu -->
+  <div class="card mb-4">
+    <div class="card-header bg-info text-white">
+      <h4 class="mb-0">🔍 Jelajahi Lagu</h4>
+    </div>
+    <div class="card-body">
+      <p class="text-muted small mb-3">
+        Temukan lagu favoritmu, lalu tekan <strong>❤️ Like</strong>. Sistem akan
+        menyimpan rating dan memperbarui rekomendasi berdasarkan
+        <em>user-based collaborative filtering</em>.
+      </p>
+      <div class="input-group mb-3">
+        <span class="input-group-text">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </span>
+        <input
+          type="text"
+          id="searchInput"
+          class="form-control"
+          placeholder="Cari lagu (judul, artis, genre...)"
+        />
+      </div>
+
+      <div class="row g-3" id="songList">
+        {% for song in songs %}
+        <div
+          class="col-md-6 col-lg-4 song-item"
+          data-title="{{ song.title|lower }}"
+          data-artist="{{ song.artist|lower }}"
+          data-genre="{{ song['top genre']|lower }}"
+        >
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">{{ song.title }}</h5>
+              <p class="card-text text-muted small mb-2">
+                🎤 {{ song.artist }} · 🎧 {{ song['top genre'] }} · 📅 {{
+                song.year }}
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <span class="badge bg-secondary"
+                  >🔥 {{ song.populer }}/100</span
+                >
+              </div>
+              <form
+                method="POST"
+                action="{{ url_for('like_song') }}"
+                class="like-form"
+              >
+                <input type="hidden" name="user_id" value="{{ user_id }}" />
+                <input type="hidden" name="email" value="{{ user_email }}" />
+                <input
+                  type="hidden"
+                  name="song_id"
+                  value="{{ song.song_id }}"
+                />
+                <button
+                  type="submit"
+                  class="btn btn-outline-primary btn-sm like-btn"
+                >
+                  ❤️ Like
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <!-- 🌟 Rekomendasi — Sesuai Deskripsi Proyek -->
+  <div class="card">
+    <div class="card-header bg-primary text-white">
+      <h4 class="mb-0">
+        🎧 Rekomendasi untuk Kamu
+        <small class="opacity-75">(User-Based Collaborative Filtering)</small>
+      </h4>
+    </div>
+    <div class="card-body">
+      <p class="text-muted small mb-3">
+        Sistem ini mengukur <strong>cosine similarity</strong> antar pengguna
+        untuk menemukan orang dengan selera mirip. Lagu di bawah diprediksi akan
+        disukai berdasarkan pola rating pengguna serupa.
+      </p>
+
+      {% if recommendations %}
+      <div class="row g-3">
+        {% for rec in recommendations %}
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">{{ rec.title }}</h5>
+              <p class="card-text text-muted small mb-2">
+                🎤 {{ rec.artist }} · 🎧 {{ rec.genre }} · 📅 {{ rec.year }}
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                {% if rec.predicted_rating > 0 %}
+                <span class="badge bg-warning text-dark">
+                  ⭐ {{ "%.1f"|format(rec.predicted_rating) }}
+                </span>
+                {% else %}
+                <span class="badge bg-danger">
+                  🔥 {{ rec.popularity or rec.populer or 0 }}/100
+                </span>
+                {% endif %}
+              </div>
+              <form
+                method="POST"
+                action="{{ url_for('like_song') }}"
+                class="like-form"
+              >
+                <input type="hidden" name="user_id" value="{{ user_id }}" />
+                <input type="hidden" name="email" value="{{ user_email }}" />
+                <input type="hidden" name="song_id" value="{{ rec.song_id }}" />
+                <button
+                  type="submit"
+                  class="btn btn-outline-success btn-sm like-btn"
+                >
+                  ❤️ Like
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      {% else %}
+      <div class="text-center py-4">
+        <span class="display-4">🤔</span>
+        <p class="mt-2 text-muted">
+          Belum ada rekomendasi. <br />
+          <strong>Like beberapa lagu</strong> di atas untuk memulai!
+        </p>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 🔍 Pencarian real-time
+    const searchInput = document.getElementById("searchInput");
+    if (searchInput) {
+      searchInput.addEventListener("input", function () {
+        const q = this.value.toLowerCase().trim();
+        document.querySelectorAll(".song-item").forEach((el) => {
+          const t = el.dataset.title || "";
+          const a = el.dataset.artist || "";
+          const g = el.dataset.genre || "";
+          el.style.display =
+            !q || t.includes(q) || a.includes(q) || g.includes(q)
+              ? "block"
+              : "none";
+        });
+      });
+    }
+
+    // ❤️ Like button feedback
+    document.querySelectorAll(".like-form").forEach((form) => {
+      form.addEventListener("submit", function (e) {
+        const btn = this.querySelector(".like-btn");
+        if (btn.classList.contains("liked")) return false;
+        btn.disabled = true;
+        btn.innerHTML =
+          '<span class="spinner-border spinner-border-sm me-1" role="status"></span> Memproses...';
+        btn.classList.add("liked");
+      });
+    });
+  });
+</script>
+{% endblock %}

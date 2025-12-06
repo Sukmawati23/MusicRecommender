@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from pathlib import Path
 
-from src.auth import AuthManager
+from src.auth import Auth as AuthManager
 from src.home_screen import start_home_screen
 
 
