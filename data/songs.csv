@@ -1,0 +1,593 @@
+song_id;title;artist;top genre;year;populer
+1;Love The Way You Lie;Eminem;detroit hip hop;2010;82
+2;TiK ToK;Kesha;dance pop;2010;80
+3;Bad Romance;Lady Gaga;dance pop;2010;79
+4;Just the Way You Are;Bruno Mars;pop;2010;78
+5;Baby;Justin Bieber;canadian pop;2010;77
+6;Dynamite;Taio Cruz;dance pop;2010;77
+7;Secrets;OneRepublic;dance pop;2010;77
+8;Empire State of Mind (Part II) Broken Down;Alicia Keys;hip pop;2010;76
+9;Only Girl (In The World);Rihanna;barbadian pop;2010;73
+10;Club Can't Handle Me (feat. David Guetta);Flo Rida;dance pop;2010;73
+11;Marry You;Bruno Mars;pop;2010;73
+12;Cooler Than Me - Single Mix;Mike Posner;dance pop;2010;73
+13;Telephone;Lady Gaga;dance pop;2010;73
+14;Like A G6;Far East Movement;dance pop;2010;72
+15;OMG (feat. will.i.am);Usher;atl hip hop;2010;72
+16;Eenie Meenie;Sean Kingston;dance pop;2010;71
+17;The Time (Dirty Bit);The Black Eyed Peas;dance pop;2010;70
+18;Alejandro;Lady Gaga;dance pop;2010;69
+19;Your Love Is My Drug;Kesha;dance pop;2010;69
+20;Meet Me Halfway;The Black Eyed Peas;dance pop;2010;68
+21;Whataya Want from Me;Adam Lambert;australian pop;2010;66
+22;Take It Off;Kesha;dance pop;2010;66
+23;Misery;Maroon 5;pop;2010;65
+24;All The Right Moves;OneRepublic;dance pop;2010;65
+25;Animal;Neon Trees;indie pop;2010;65
+26;Naturally;Selena Gomez & The Scene;dance pop;2010;64
+27;I Like It;Enrique Iglesias;dance pop;2010;63
+28;Teenage Dream;Katy Perry;dance pop;2010;63
+29;California Gurls;Katy Perry;dance pop;2010;62
+30;3;Britney Spears;dance pop;2010;62
+31;My First Kiss - feat. Ke$ha;3OH!3;dance pop;2010;62
+32;Blah Blah Blah (feat. 3OH!3);Kesha;dance pop;2010;62
+33;Imma Be;The Black Eyed Peas;dance pop;2010;62
+34;Try Sleeping with a Broken Heart;Alicia Keys;hip pop;2010;62
+35;Sexy Bitch (feat. Akon);David Guetta;dance pop;2010;61
+36;Bound To You - Burlesque Original Motion Picture Soundtrack;Christina Aguilera;dance pop;2010;61
+37;If I Had You;Adam Lambert;australian pop;2010;59
+38;Rock That Body;The Black Eyed Peas;dance pop;2010;59
+39;Dog Days Are Over;Florence + The Machine;art pop;2010;58
+40;Something's Got A Hold On Me - Burlesque Original Motion Picture Soundtrack;Christina Aguilera;dance pop;2010;58
+41;Doesn't Mean Anything;Alicia Keys;hip pop;2010;57
+42;Hard;Rihanna;barbadian pop;2010;57
+43;Loca;Shakira;colombian pop;2010;56
+44;You Lost Me;Christina Aguilera;dance pop;2010;56
+45;Not Myself Tonight;Christina Aguilera;dance pop;2010;55
+46;Written in the Stars (feat. Eric Turner);Tinie Tempah;dance pop;2010;52
+47;DJ Got Us Fallin' In Love (feat. Pitbull);Usher;atl hip hop;2010;52
+48;Castle Walls (feat. Christina Aguilera);T.I.;atl hip hop;2010;49
+49;Break Your Heart;Taio Cruz;dance pop;2010;33
+50;Hello;Martin Solveig;big room;2010;0
+51;A Thousand Years;Christina Perri;dance pop;2011;81
+52;Someone Like You;Adele;british soul;2011;80
+53;Give Me Everything;Pitbull;dance pop;2011;79
+54;Just the Way You Are;Bruno Mars;pop;2011;78
+55;Rolling in the Deep;Adele;british soul;2011;76
+56;Run the World (Girls);BeyoncÃ©;dance pop;2011;76
+57;Moves Like Jagger - Studio Recording From The Voice Performance;Maroon 5;pop;2011;76
+58;Love On Top;BeyoncÃ©;dance pop;2011;76
+59;Grenade;Bruno Mars;pop;2011;75
+60;Tonight Tonight;Hot Chelle Rae;dance pop;2011;75
+61;What the Hell;Avril Lavigne;canadian pop;2011;74
+62;Born This Way;Lady Gaga;dance pop;2011;73
+63;Monster;Kanye West;chicago rap;2011;73
+64;Marry You;Bruno Mars;pop;2011;73
+65;Best Thing I Never Had;BeyoncÃ©;dance pop;2011;73
+66;Party Rock Anthem;LMFAO;dance pop;2011;72
+67;We R Who We R;Kesha;dance pop;2011;72
+68;Price Tag;Jessie J;australian pop;2011;72
+69;Good Life;OneRepublic;dance pop;2011;72
+70;Just CanÂ’t Get Enough;The Black Eyed Peas;dance pop;2011;71
+71;On The Floor;Jennifer Lopez;dance pop;2011;69
+72;What's My Name?;Rihanna;barbadian pop;2011;69
+73;Yeah 3x;Chris Brown;dance pop;2011;69
+74;Without You (feat. Usher);David Guetta;dance pop;2011;68
+75;Sexy And I Know It;LMFAO;dance pop;2011;67
+76;The Edge Of Glory;Lady Gaga;dance pop;2011;67
+77;E.T.;Katy Perry;dance pop;2011;66
+78;Till the World Ends;Britney Spears;dance pop;2011;65
+79;I Wanna Go;Britney Spears;dance pop;2011;64
+80;Blow;Kesha;dance pop;2011;64
+81;You And I;Lady Gaga;dance pop;2011;64
+82;Judas;Lady Gaga;dance pop;2011;63
+83;Tonight (I'm Fuckin' You);Enrique Iglesias;dance pop;2011;63
+84;Please Don't Go;Mike Posner;dance pop;2011;63
+85;We Found Love;Rihanna;barbadian pop;2011;61
+86;Marry The Night;Lady Gaga;dance pop;2011;61
+87;1+1;BeyoncÃ©;dance pop;2011;60
+88;Hold It Against Me;Britney Spears;dance pop;2011;59
+89;I'm Into You;Jennifer Lopez;dance pop;2011;59
+90;Papi;Jennifer Lopez;dance pop;2011;58
+91;Cheers (Drink To That);Rihanna;barbadian pop;2011;58
+92;S&M Remix;Rihanna;barbadian pop;2011;54
+93;Written in the Stars (feat. Eric Turner);Tinie Tempah;dance pop;2011;52
+94;Jar of Hearts;Christina Perri;dance pop;2011;50
+95;Castle Walls (feat. Christina Aguilera);T.I.;atl hip hop;2011;49
+96;Turning Page;Sleeping At Last;acoustic pop;2011;46
+97;Super Bass;Nicki Minaj;dance pop;2011;38
+98;Raise Your Glass;P!nk;dance pop;2011;38
+99;Invading My Mind;Jennifer Lopez;dance pop;2011;31
+100;Moment 4 Life - Album Version (Edited);Nicki Minaj;dance pop;2011;28
+101;Last Friday Night (T.G.I.F.);Katy Perry;dance pop;2011;27
+102;Firework;Katy Perry;dance pop;2011;25
+103;Muny - Album Version (Edited);Nicki Minaj;dance pop;2011;7
+104;Titanium (feat. Sia);David Guetta;dance pop;2012;80
+105;Locked Out of Heaven;Bruno Mars;pop;2012;79
+106;Paradise;Coldplay;permanent wave;2012;79
+107;Payphone;Maroon 5;pop;2012;79
+108;What Makes You Beautiful;One Direction;boy band;2012;78
+109;I Knew You Were Trouble.;Taylor Swift;pop;2012;77
+110;Call Me Maybe;Carly Rae Jepsen;canadian pop;2012;76
+111;Love You Like A Love Song;Selena Gomez & The Scene;dance pop;2012;76
+112;Set Fire to the Rain;Adele;british soul;2012;76
+113;We Are Never Ever Getting Back Together;Taylor Swift;pop;2012;75
+114;Stronger (What Doesn't Kill You);Kelly Clarkson;dance pop;2012;74
+115;Try;P!nk;dance pop;2012;74
+116;Starships;Nicki Minaj;dance pop;2012;73
+117;One More Night;Maroon 5;pop;2012;73
+118;Good Time;Owl City;pop;2012;73
+119;Glad You Came;The Wanted;boy band;2012;72
+120;Beauty And A Beat;Justin Bieber;canadian pop;2012;72
+121;International Love;Pitbull;dance pop;2012;72
+122;Some Nights;fun.;baroque pop;2012;72
+123;Boyfriend;Justin Bieber;canadian pop;2012;71
+124;Part Of Me;Katy Perry;dance pop;2012;71
+125;Domino;Jessie J;australian pop;2012;69
+126;Where Have You Been;Rihanna;barbadian pop;2012;68
+127;Wide Awake;Katy Perry;dance pop;2012;68
+128;The One That Got Away;Katy Perry;dance pop;2012;67
+129;Dance Again;Jennifer Lopez;dance pop;2012;66
+130;Turn Up the Music;Chris Brown;dance pop;2012;65
+131;Lights - Single Version;Ellie Goulding;dance pop;2012;65
+132;We Are Young (feat. Janelle MonÃ¡e);fun.;baroque pop;2012;63
+133;Diamonds;Rihanna;barbadian pop;2012;61
+134;Don't Stop the Party (feat. TJR);Pitbull;dance pop;2012;59
+135;You Da One;Rihanna;barbadian pop;2012;57
+136;Stereo Hearts (feat. Adam Levine);Gym Class Heroes;dance pop;2012;54
+137;It Will Rain;Bruno Mars;pop;2012;38
+138;Blow Me (One Last Kiss);P!nk;dance pop;2012;0
+139;Underneath the Tree;Kelly Clarkson;dance pop;2013;88
+140;Wake Me Up;Avicii;big room;2013;85
+141;Story of My Life;One Direction;boy band;2013;81
+142;Just Give Me a Reason (feat. Nate Ruess);P!nk;dance pop;2013;81
+143;Hall of Fame;The Script;celtic rock;2013;80
+144;Roar;Katy Perry;dance pop;2013;78
+145;We Can't Stop;Miley Cyrus;dance pop;2013;78
+146;Don't You Worry Child - Radio Edit;Swedish House Mafia;big room;2013;78
+147;Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit;Daft Punk;electro;2013;77
+148;Wrecking Ball;Miley Cyrus;dance pop;2013;77
+149;Impossible;James Arthur;pop;2013;77
+150;Blurred Lines;Robin Thicke;dance pop;2013;76
+151;Heart Attack;Demi Lovato;dance pop;2013;76
+152;We Are Never Ever Getting Back Together;Taylor Swift;pop;2013;75
+153;Die Young;Kesha;dance pop;2013;75
+154;Clarity;Zedd;complextro;2013;75
+155;Summertime Sadness (Lana Del Rey Vs. Cedric Gervais) - Cedric Gervais Remix;Lana Del Rey;art pop;2013;74
+156;Under Control;Calvin Harris;dance pop;2013;74
+157;Everybody Talks;Neon Trees;indie pop;2013;74
+158;Best Song Ever;One Direction;boy band;2013;73
+159;Kiss You;One Direction;boy band;2013;73
+160;Sweet Nothing (feat. Florence Welch);Calvin Harris;dance pop;2013;72
+161;Lose Yourself to Dance;Daft Punk;electro;2013;72
+162;Work Bitch;Britney Spears;dance pop;2013;71
+163;Brave;Sara Bareilles;acoustic pop;2013;71
+164;Can't Hold Us (feat. Ray Dalton);Macklemore & Ryan Lewis;dance pop;2013;70
+165;Feel This Moment (feat. Christina Aguilera);Pitbull;dance pop;2013;70
+166;Beneath Your Beautiful;Labrinth;pop;2013;70
+167;Let Me Love You (Until You Learn To Love Yourself);Ne-Yo;dance pop;2013;70
+168;Thrift Shop (feat. Wanz);Macklemore & Ryan Lewis;dance pop;2013;69
+169;If I Lose Myself - Alesso vs OneRepublic;OneRepublic;dance pop;2013;69
+170;The Way;Ariana Grande;dance pop;2013;68
+171;Suit & Tie;Justin Timberlake;dance pop;2013;68
+172;#thatPOWER;will.i.am;dance pop;2013;68
+173;I Love It (feat. Charli XCX);Icona Pop;candy pop;2013;67
+174;Play Hard (feat. Ne-Yo & Akon) - New Edit;David Guetta;dance pop;2013;67
+175;Daylight;Maroon 5;pop;2013;66
+176;Love Somebody;Maroon 5;pop;2013;65
+177;A Little Party Never Killed Nobody (All We Got);Fergie;dance pop;2013;65
+178;Move;Little Mix;dance pop;2013;63
+179;Walks Like Rihanna;The Wanted;boy band;2013;62
+180;Rock N Roll;Avril Lavigne;canadian pop;2013;61
+181;Heartbreaker;Justin Bieber;canadian pop;2013;61
+182;Mirrors - Radio Edit;Justin Timberlake;dance pop;2013;60
+183;Next To Me;Emeli SandÃ©;dance pop;2013;60
+184;Made In The USA;Demi Lovato;dance pop;2013;60
+185;Clown;Emeli SandÃ©;dance pop;2013;60
+186;Girl On Fire (feat. Nicki Minaj) - Inferno Version;Alicia Keys;hip pop;2013;59
+187;TKO;Justin Timberlake;dance pop;2013;58
+188;Come & Get It;Selena Gomez;dance pop;2013;57
+189;Live It Up;Jennifer Lopez;dance pop;2013;57
+190;We Own The Night;The Wanted;boy band;2013;56
+191;Atlas - From Â“The Hunger Games: Catching FireÂ” Soundtrack;Coldplay;permanent wave;2013;55
+192;What About Love;Austin Mahone;dance pop;2013;54
+193;Take Back the Night;Justin Timberlake;dance pop;2013;54
+194;Applause;Lady Gaga;dance pop;2013;52
+195;Anything Could Happen;Ellie Goulding;dance pop;2013;52
+196;Finally Found You;Enrique Iglesias;dance pop;2013;52
+197;Pom Poms;Jonas Brothers;boy band;2013;52
+198;#Beautiful;Mariah Carey;dance pop;2013;51
+199;How Ya Doin'? (feat. Missy Elliott);Little Mix;dance pop;2013;50
+200;Crazy Kids (feat. will.i.am);Kesha;dance pop;2013;46
+201;"Ooh La La (from ""The Smurfs 2"")";Britney Spears;dance pop;2013;45
+202;People Like Us;Kelly Clarkson;dance pop;2013;45
+203;Overdose;Ciara;dance pop;2013;43
+204;Right Now - Dyro Radio Edit;Rihanna;barbadian pop;2013;42
+205;Give It 2 U;Robin Thicke;dance pop;2013;41
+206;Foolish Games;Jewel;alaska indie;2013;36
+207;Outta Nowhere (feat. Danny Mercer);Pitbull;dance pop;2013;35
+208;Freak;Kelly Rowland;atl hip hop;2013;28
+209;All of Me;John Legend;neo mellow;2014;86
+210;Stay With Me;Sam Smith;pop;2014;85
+211;Summer;Calvin Harris;dance pop;2014;80
+212;"Happy - From ""Despicable Me 2""";Pharrell Williams;dance pop;2014;79
+213;Rude;MAGIC!;pop;2014;79
+214;Shake It Off;Taylor Swift;pop;2014;78
+215;Dark Horse;Katy Perry;dance pop;2014;78
+216;Hey Brother;Avicii;big room;2014;78
+217;Maps;Maroon 5;pop;2014;78
+218;Treasure;Bruno Mars;pop;2014;77
+219;Let Her Go;Passenger;folk-pop;2014;77
+220;Problem;Ariana Grande;dance pop;2014;75
+221;Pompeii;Bastille;metropopolis;2014;73
+222;Team;Lorde;art pop;2014;73
+223;Love Me Again;John Newman;pop;2014;73
+224;Latch;Disclosure;house;2014;72
+225;Adore You;Miley Cyrus;dance pop;2014;72
+226;Love Never Felt So Good;Michael Jackson;pop;2014;71
+227;Burn;Ellie Goulding;dance pop;2014;71
+228;She Looks So Perfect;5 Seconds of Summer;boy band;2014;71
+229;Fancy;Iggy Azalea;australian hip hop;2014;70
+230;Talk Dirty (feat. 2 Chainz);Jason Derulo;dance pop;2014;68
+231;Gorilla;Bruno Mars;pop;2014;68
+232;human;Christina Perri;dance pop;2014;68
+233;Young Girls;Bruno Mars;pop;2014;67
+234;Wiggle (feat. Snoop Dogg);Jason Derulo;dance pop;2014;67
+235;Love Runs Out;OneRepublic;dance pop;2014;66
+236;This Is How We Do;Katy Perry;dance pop;2014;66
+237;Mmm Yeah (feat. Pitbull);Austin Mahone;dance pop;2014;65
+238;A Little Party Never Killed Nobody (All We Got);Fergie;dance pop;2014;65
+239;#SELFIE;The Chainsmokers;electropop;2014;65
+240;Partition;BeyoncÃ©;dance pop;2014;65
+241;Birthday;Katy Perry;dance pop;2014;65
+242;G.U.Y.;Lady Gaga;dance pop;2014;65
+243;Stay The Night - Featuring Hayley Williams Of Paramore;Zedd;complextro;2014;64
+244;"Let It Go - From ""Frozen / Single Version";Demi Lovato;dance pop;2014;63
+245;Wings;Birdy;neo mellow;2014;62
+246;Can't Remember to Forget You (feat. Rihanna);Shakira;colombian pop;2014;62
+247;Shot Me Down (feat. Skylar Grey) - Radio Edit;David Guetta;dance pop;2014;61
+248;Say Something;A Great Big World;neo mellow;2014;61
+249;A Sky Full of Stars;Coldplay;permanent wave;2014;60
+250;Come Get It Bae;Pharrell Williams;dance pop;2014;59
+251;Chandelier;Sia;australian dance;2014;56
+252;XO;BeyoncÃ©;dance pop;2014;56
+253;We Are One (Ole Ola) [The Official 2014 FIFA World Cup Song];Pitbull;dance pop;2014;56
+254;Not About Angels;Birdy;neo mellow;2014;56
+255;Drunk in Love;BeyoncÃ©;dance pop;2014;52
+256;Anaconda;Nicki Minaj;dance pop;2014;50
+257;Boom Clap - From the Motion Picture Das Schicksal ist ein mieser VerrÃ¤ter;Charli XCX;candy pop;2014;50
+258;La La La (Brasil 2014) (feat. Carlinhos Brown);Shakira;colombian pop;2014;50
+259;Tee Shirt - Soundtrack Version;Birdy;neo mellow;2014;49
+260;Words as Weapons;Birdy;neo mellow;2014;44
+261;You're Mine (Eternal);Mariah Carey;dance pop;2014;38
+262;Sheezus;Lily Allen;dance pop;2014;37
+263;Cannonball;Lea Michele;hollywood;2014;37
+264;It's On Again - Main Soundtrack;Alicia Keys;hip pop;2014;30
+265;I Luh Ya Papi;Jennifer Lopez;dance pop;2014;28
+266;Not a Bad Thing;Justin Timberlake;dance pop;2014;0
+267;Thinking out Loud;Ed Sheeran;pop;2015;84
+268;I'm Not The Only One;Sam Smith;pop;2015;84
+269;The Hills;The Weeknd;canadian contemporary r&b;2015;84
+270;Love Yourself;Justin Bieber;canadian pop;2015;83
+271;Uptown Funk;Mark Ronson;dance pop;2015;82
+272;Take Me To Church;Hozier;irish singer-songwriter;2015;81
+273;Sugar;Maroon 5;pop;2015;81
+274;Sorry;Justin Bieber;canadian pop;2015;81
+275;FourFiveSeconds;Rihanna;barbadian pop;2015;80
+276;"Love Me Like You Do - From ""Fifty Shades Of Grey""";Ellie Goulding;dance pop;2015;79
+277;"Earned It (Fifty Shades Of Grey) - From The ""Fifty Shades Of Grey"" Soundtrack";The Weeknd;canadian contemporary r&b;2015;79
+278;What Do You Mean?;Justin Bieber;canadian pop;2015;79
+279;Stitches;Shawn Mendes;canadian pop;2015;78
+280;Want to Want Me;Jason Derulo;dance pop;2015;77
+281;My House;Flo Rida;dance pop;2015;77
+282;Waves - Robin Schulz Radio Edit;Mr. Probz;tropical house;2015;77
+283;Night Changes;One Direction;boy band;2015;77
+284;How Deep Is Your Love;Calvin Harris;dance pop;2015;77
+285;Never Forget You;Zara Larsson;dance pop;2015;77
+286;Love Me Harder;Ariana Grande;dance pop;2015;76
+287;Animals;Maroon 5;pop;2015;76
+288;Blame;Calvin Harris;dance pop;2015;76
+289;Worth It;Fifth Harmony;dance pop;2015;75
+290;Break Free;Ariana Grande;dance pop;2015;75
+291;Don't;Ed Sheeran;pop;2015;74
+292;Elastic Heart;Sia;australian dance;2015;73
+293;Rather Be (feat. Jess Glynne);Clean Bandit;dance pop;2015;73
+294;Hello;Adele;british soul;2015;73
+295;Dear Future Husband;Meghan Trainor;dance pop;2015;72
+296;43776;BeyoncÃ©;dance pop;2015;72
+297;The Heart Wants What It Wants;Selena Gomez;dance pop;2015;72
+298;Genie In a Bottle;Christina Aguilera;dance pop;2015;72
+299;Company;Justin Bieber;canadian pop;2015;72
+300;Sing;Ed Sheeran;pop;2015;71
+301;Jealous - Remix;Nick Jonas;dance pop;2015;70
+302;Really Don't Care;Demi Lovato;dance pop;2015;70
+303;Only Love Can Hurt Like This;Paloma Faith;british soul;2015;69
+304;Heartbeat Song;Kelly Clarkson;dance pop;2015;69
+305;Up;Olly Murs;dance pop;2015;69
+306;Trumpets;Jason Derulo;dance pop;2015;69
+307;Runnin' (Lose It All);Naughty Boy;tropical house;2015;69
+308;Same Old Love;Selena Gomez;dance pop;2015;69
+309;I Want You To Know;Zedd;complextro;2015;68
+310;Lips Are Movin;Meghan Trainor;dance pop;2015;68
+311;I'll Show You;Justin Bieber;canadian pop;2015;68
+312;Here;Alessia Cara;canadian contemporary r&b;2015;68
+313;I Lived;OneRepublic;dance pop;2015;67
+314;Fireball (feat. John Ryan);Pitbull;dance pop;2015;67
+315;Easy Love;Sigala;dance pop;2015;67
+316;The Feeling;Justin Bieber;canadian pop;2015;67
+317;I Really Like You;Carly Rae Jepsen;canadian pop;2015;66
+318;BO$$;Fifth Harmony;dance pop;2015;66
+319;Sugar;Maroon 5;pop;2015;66
+320;Focus;Ariana Grande;dance pop;2015;66
+321;All About That Bass;Meghan Trainor;dance pop;2015;65
+322;On My Mind;Ellie Goulding;dance pop;2015;65
+323;Love Me Like You;Little Mix;dance pop;2015;65
+324;Broken Arrows;Avicii;big room;2015;65
+325;Booty;Jennifer Lopez;dance pop;2015;64
+326;What Do You Mean? - Acoustic;Justin Bieber;canadian pop;2015;64
+327;Mark My Words;Justin Bieber;canadian pop;2015;63
+328;Lay It All on Me;Rudimental;dance pop;2015;62
+329;American Oxygen;Rihanna;barbadian pop;2015;61
+330;Bang Bang;Jessie J;australian pop;2015;61
+331;Reality - Radio Edit;Lost Frequencies;belgian edm;2015;61
+332;Alive;Sia;australian dance;2015;61
+333;Sugar (feat. Francesco Yates);Robin Schulz;dance pop;2015;60
+334;Been You;Justin Bieber;canadian pop;2015;60
+335;Prayer in C - Robin Schulz Radio Edit;Lilly Wood and The Prick;french indie pop;2015;58
+336;See You Again (feat. Charlie Puth);Wiz Khalifa;hip hop;2015;56
+337;Heroes (we could be);Alesso;big room;2015;56
+338;"Feel The Light - From The ""Home"" Soundtrack";Jennifer Lopez;dance pop;2015;55
+339;Perfect;One Direction;boy band;2015;55
+340;Ghosttown;Madonna;dance pop;2015;54
+341;Bang My Head (feat. Sia & Fetty Wap);David Guetta;dance pop;2015;54
+342;Bloodstream;Ed Sheeran;pop;2015;52
+343;Living For Love;Madonna;dance pop;2015;52
+344;Baby Don't Lie;Gwen Stefani;dance pop;2015;52
+345;Don't Be so Hard on Yourself;Jess Glynne;dance pop;2015;52
+346;Steal My Girl;One Direction;boy band;2015;51
+347;"Celebrate (From the Original Motion Picture ""Penguins of Madagascar"")";Pitbull;dance pop;2015;50
+348;We Are Here;Alicia Keys;hip pop;2015;49
+349;St Jude;Florence + The Machine;art pop;2015;47
+350;Yesterday (feat. Bebe Rexha);David Guetta;dance pop;2015;46
+351;Time of Our Lives;Pitbull;dance pop;2015;45
+352;Sparks;Hilary Duff;dance pop;2015;44
+353;Mr. Put It Down;Ricky Martin;dance pop;2015;42
+354;Legendary Lovers;Katy Perry;dance pop;2015;41
+355;Spark The Fire;Gwen Stefani;dance pop;2015;39
+356;Run Run Run;Kelly Clarkson;dance pop;2015;36
+357;Let Me Be Your Lover;Enrique Iglesias;dance pop;2015;34
+358;Dangerous;Jennifer Hudson;dance pop;2015;18
+359;L.A.LOVE (la la);Fergie;dance pop;2015;0
+360;The Hills;The Weeknd;canadian contemporary r&b;2016;84
+361;Love Yourself;Justin Bieber;canadian pop;2016;83
+362;Cake By The Ocean;DNCE;dance pop;2016;81
+363;Don't Let Me Down;The Chainsmokers;electropop;2016;81
+364;In the Name of Love;Martin Garrix;big room;2016;81
+365;Into You;Ariana Grande;dance pop;2016;80
+366;This Is What You Came For;Calvin Harris;dance pop;2016;80
+367;Million Reasons;Lady Gaga;dance pop;2016;80
+368;Needed Me;Rihanna;barbadian pop;2016;80
+369;7 Years;Lukas Graham;danish pop;2016;80
+370;"CAN'T STOP THE FEELING! (Original Song from DreamWorks Animation's ""TROLLS"")";Justin Timberlake;dance pop;2016;79
+371;Work from Home (feat. Ty Dolla $ign);Fifth Harmony;dance pop;2016;79
+372;Scars To Your Beautiful;Alessia Cara;canadian contemporary r&b;2016;79
+373;Like I'm Gonna Lose You (feat. John Legend);Meghan Trainor;dance pop;2016;79
+374;Work;Rihanna;barbadian pop;2016;78
+375;Stitches;Shawn Mendes;canadian pop;2016;78
+376;I Took A Pill In Ibiza - Seeb Remix;Mike Posner;dance pop;2016;78
+377;Dangerous Woman;Ariana Grande;dance pop;2016;78
+378;Starving;Hailee Steinfeld;dance pop;2016;78
+379;Shout Out to My Ex;Little Mix;dance pop;2016;77
+380;Electric Love;BÃ˜RNS;electropop;2016;76
+381;Confident;Demi Lovato;dance pop;2016;75
+382;Too Good;Drake;canadian hip hop;2016;74
+383;Roses;The Chainsmokers;electropop;2016;74
+384;Cold Water (feat. Justin Bieber & MÃ˜);Major Lazer;dance pop;2016;73
+385;Me Too;Meghan Trainor;dance pop;2016;73
+386;Light It Up (feat. Nyla & Fuse ODG) [Remix];Major Lazer;dance pop;2016;73
+387;Ain't Your Mama;Jennifer Lopez;dance pop;2016;72
+388;Close;Nick Jonas;dance pop;2016;72
+389;Toothbrush;DNCE;dance pop;2016;72
+390;All We Know;The Chainsmokers;electropop;2016;72
+391;Final Song;MÃ˜;dance pop;2016;72
+392;Company;Justin Bieber;canadian pop;2016;72
+393;Hands To Myself;Selena Gomez;dance pop;2016;71
+394;All I Ask;Adele;british soul;2016;71
+395;"Just Like Fire (From the Original Motion Picture ""Alice Through The Looking Glass"")";P!nk;dance pop;2016;71
+396;NO;Meghan Trainor;dance pop;2016;70
+397;Kill Em With Kindness;Selena Gomez;dance pop;2016;70
+398;Cool Girl;Tove Lo;dance pop;2016;69
+399;Runnin' (Lose It All);Naughty Boy;tropical house;2016;69
+400;Here;Alessia Cara;canadian contemporary r&b;2016;68
+401;Perfect Illusion;Lady Gaga;dance pop;2016;67
+402;PILLOWTALK;ZAYN;dance pop;2016;66
+403;Out Of The Woods;Taylor Swift;pop;2016;66
+404;Rise;Katy Perry;dance pop;2016;66
+405;Wherever I Go;OneRepublic;dance pop;2016;66
+406;Body Say;Demi Lovato;dance pop;2016;65
+407;Don't Be A Fool;Shawn Mendes;canadian pop;2016;65
+408;LIKE I WOULD;ZAYN;dance pop;2016;65
+409;Cheap Thrills;Sia;australian dance;2016;64
+410;I Got You;Bebe Rexha;dance pop;2016;64
+411;Run Away With Me;Carly Rae Jepsen;canadian pop;2016;63
+412;Cruel (feat. ZAYN);Snakehips;dance pop;2016;63
+413;Send My Love (To Your New Lover);Adele;british soul;2016;61
+414;WTF (Where They From);Missy Elliott;dance pop;2016;58
+415;Desire;Years & Years;dance pop;2016;58
+416;When We Were Young;Adele;british soul;2016;58
+417;I Know What You Did Last Summer;Shawn Mendes;canadian pop;2016;57
+418;Wish That You Were Here - From Â“Miss PeregrineÂ’s Home for Peculiar ChildrenÂ” Original Motion Picture;Florence + The Machine;art pop;2016;57
+419;Hurts;Emeli SandÃ©;dance pop;2016;57
+420;Change;Christina Aguilera;dance pop;2016;54
+421;Make Me... (feat. G-Eazy);Britney Spears;dance pop;2016;53
+422;Keeping Your Head Up;Birdy;neo mellow;2016;52
+423;True Colors;Zedd;complextro;2016;51
+424;Make Me Like You;Gwen Stefani;dance pop;2016;50
+425;Champagne Problems;Nick Jonas;dance pop;2016;50
+426;Blown;DNCE;dance pop;2016;48
+427;Start;John Legend;neo mellow;2016;47
+428;Pep Rally;Missy Elliott;dance pop;2016;47
+429;Higher;Carly Rae Jepsen;canadian pop;2016;46
+430;Invitation;Britney Spears;dance pop;2016;44
+431;One Call Away (feat. Tyga) - Remix;Charlie Puth;dance pop;2016;41
+432;Beautiful Birds (feat. Birdy);Passenger;folk-pop;2016;36
+433;Little Lies;Hilary Duff;dance pop;2016;36
+434;Do You Wanna Come Over?;Britney Spears;dance pop;2016;34
+435;BURNITUP!;Janet Jackson;dance pop;2016;31
+436;Picky - Remix;Joey Montana;latin;2016;29
+437;Behind Your Back;Nelly Furtado;canadian latin;2016;18
+438;Million Years Ago;Adele;british soul;2016;0
+439;Shape of You;Ed Sheeran;pop;2017;87
+440;Closer;The Chainsmokers;electropop;2017;86
+441;Starboy;The Weeknd;canadian contemporary r&b;2017;85
+442;Treat You Better;Shawn Mendes;canadian pop;2017;84
+443;That's What I Like;Bruno Mars;pop;2017;83
+444;Let Me Love You;DJ Snake;electronic trap;2017;82
+445;I Feel It Coming;The Weeknd;canadian contemporary r&b;2017;81
+446;Mercy;Shawn Mendes;canadian pop;2017;81
+447;Side To Side;Ariana Grande;dance pop;2017;80
+448;Stay;Zedd;complextro;2017;80
+449;It Ain't Me (with Selena Gomez);Kygo;edm;2017;79
+450;Malibu;Miley Cyrus;dance pop;2017;78
+451;Something Just Like This;The Chainsmokers;electropop;2017;78
+452;Rockabye (feat. Sean Paul & Anne-Marie);Clean Bandit;dance pop;2017;78
+453;I DonÂ’t Wanna Live Forever (Fifty Shades Darker);ZAYN;dance pop;2017;78
+454;My Way;Calvin Harris;dance pop;2017;78
+455;Praying;Kesha;dance pop;2017;77
+456;Despacito - Remix;Luis Fonsi;latin;2017;76
+457;The Greatest;Sia;australian dance;2017;76
+458;There for You;Martin Garrix;big room;2017;76
+459;Paris;The Chainsmokers;electropop;2017;76
+460;Crying in the Club;Camila Cabello;dance pop;2017;75
+461;Mama;Jonas Blue;dance pop;2017;75
+462;Slide (feat. Frank Ocean & Migos);Calvin Harris;dance pop;2017;75
+463;Swish Swish;Katy Perry;dance pop;2017;73
+464;Chained To The Rhythm;Katy Perry;dance pop;2017;72
+465;Cold (feat. Future);Maroon 5;pop;2017;72
+466;Love;Lana Del Rey;art pop;2017;72
+467;ReggaetÃ³n Lento (Remix);CNCO;boy band;2017;71
+468;All I Ask;Adele;british soul;2017;71
+469;First Time;Kygo;edm;2017;71
+470;The Cure;Lady Gaga;dance pop;2017;71
+471;"How Far I'll Go - From ""Moana""";Alessia Cara;canadian contemporary r&b;2017;71
+472;Bodak Yellow;Cardi B;pop;2017;70
+473;Rich Love (with Seeb);OneRepublic;dance pop;2017;70
+474;Tired;Alan Walker;electro house;2017;70
+475;Came Here for Love;Sigala;dance pop;2017;70
+476;24K Magic;Bruno Mars;pop;2017;69
+477;Strip That Down (feat. Quavo);Liam Payne;dance pop;2017;69
+478;Cut To The Feeling;Carly Rae Jepsen;canadian pop;2017;69
+479;OK - Spotify Version;Robin Schulz;dance pop;2017;69
+480;Bon appÃ©tit;Katy Perry;dance pop;2017;68
+481;Summer Bummer (feat. A$AP Rocky & Playboi Carti);Lana Del Rey;art pop;2017;67
+482;Get Low (with Liam Payne);Zedd;complextro;2017;66
+483;Kissing Strangers;DNCE;dance pop;2017;66
+484;Slow Hands;Niall Horan;dance pop;2017;64
+485;Younger Now;Miley Cyrus;dance pop;2017;62
+486;Body Moves;DNCE;dance pop;2017;62
+487;Reality (feat. Janieck Devy) - Radio Edit;Lost Frequencies;belgian edm;2017;59
+488;Angel;Fifth Harmony;dance pop;2017;59
+489;Touch (feat. Kid Ink);Little Mix;dance pop;2017;59
+490;We Don't Talk Anymore - DROELOE Remix;Charlie Puth;dance pop;2017;59
+491;Love Incredible (feat. Camila Cabello);Cashmere Cat;downtempo;2017;59
+492;No Vacancy (with SebastiÃ¡n Yatra);OneRepublic;dance pop;2017;57
+493;Rich Boy;Galantis;big room;2017;55
+494;Lust for Life (with The Weeknd);Lana Del Rey;art pop;2017;54
+495;Greenlight (feat. Flo Rida & LunchMoney Lewis);Pitbull;dance pop;2017;54
+496;Influence;Tove Lo;dance pop;2017;54
+497;Remember I Told You;Nick Jonas;dance pop;2017;53
+498;Messin' Around;Pitbull;dance pop;2017;51
+499;Water Under the Bridge;Adele;british soul;2017;49
+500;Free Me;Sia;australian dance;2017;44
+501;Kissing Strangers - Remix;DNCE;dance pop;2017;43
+502;A L I E N S;Coldplay;permanent wave;2017;41
+503;One Kiss (with Dua Lipa);Calvin Harris;dance pop;2018;86
+504;Havana (feat. Young Thug);Camila Cabello;dance pop;2018;85
+505;I Like It;Cardi B;pop;2018;85
+506;New Rules;Dua Lipa;dance pop;2018;84
+507;There's Nothing Holdin' Me Back;Shawn Mendes;canadian pop;2018;84
+508;no tears left to cry;Ariana Grande;dance pop;2018;84
+509;IDGAF;Dua Lipa;dance pop;2018;84
+510;In My Blood;Shawn Mendes;canadian pop;2018;83
+511;Wolves;Selena Gomez;dance pop;2018;83
+512;Dusk Till Dawn - Radio Edit;ZAYN;dance pop;2018;83
+513;Attention;Charlie Puth;dance pop;2018;83
+514;Electricity (with Dua Lipa);Silk City;edm;2018;82
+515;Love On The Brain;Rihanna;barbadian pop;2018;82
+516;Silence;Marshmello;brostep;2018;82
+517;Sorry Not Sorry;Demi Lovato;dance pop;2018;81
+518;Shallow - Radio Edit;Lady Gaga;dance pop;2018;80
+519;These Days;Rudimental;dance pop;2018;80
+520;What Lovers Do (feat. SZA);Maroon 5;pop;2018;79
+521;Perfect Duet (Ed Sheeran & BeyoncÃ©);Ed Sheeran;pop;2018;78
+522;Bad At Love;Halsey;dance pop;2018;78
+523;Him & I (with Halsey);G-Eazy;hip hop;2018;78
+524;Friends (with BloodPopÂ®);Justin Bieber;canadian pop;2018;77
+525;Wild Thoughts (feat. Rihanna & Bryson Tiller);DJ Khaled;dance pop;2018;76
+526;My My My!;Troye Sivan;dance pop;2018;76
+527;Capital Letters;Hailee Steinfeld;dance pop;2018;76
+528;Sick Boy;The Chainsmokers;electropop;2018;76
+529;Tequila;Dan + Shay;contemporary country;2018;76
+530;Look What You Made Me Do;Taylor Swift;pop;2018;75
+531;Youth (feat. Khalid);Shawn Mendes;canadian pop;2018;75
+532;Bad Liar;Selena Gomez;dance pop;2018;75
+533;Anywhere;Rita Ora;dance pop;2018;74
+534;Say Something;Justin Timberlake;dance pop;2018;74
+535;Chun-Li;Nicki Minaj;dance pop;2018;73
+536;Sign of the Times;Harry Styles;dance pop;2018;72
+537;Familiar;Liam Payne;dance pop;2018;72
+538;Let Me;ZAYN;dance pop;2018;72
+539;Supernova;Ansel Elgort;dance pop;2018;72
+540;Nervous;Shawn Mendes;canadian pop;2018;71
+541;First Time;Kygo;edm;2018;71
+542;End Game;Taylor Swift;pop;2018;70
+543;Mi Gente (feat. BeyoncÃ©);J Balvin;latin;2018;68
+544;Lemon;N.E.R.D;hip hop;2018;68
+545;For You (With Rita Ora);Liam Payne;dance pop;2018;67
+546;Want To;Dua Lipa;dance pop;2018;67
+547;What I Need (feat. Kehlani);Hayley Kiyoko;dance pop;2018;67
+548;Wait;Maroon 5;pop;2018;67
+549;What About Us;P!nk;dance pop;2018;66
+550;Kissing Strangers;DNCE;dance pop;2018;66
+551;2U (feat. Justin Bieber);David Guetta;dance pop;2018;65
+552;Walk On Water (feat. BeyoncÃ©);Eminem;detroit hip hop;2018;65
+553;This Town;Niall Horan;dance pop;2018;64
+554;MOVE TO MIAMI;Enrique Iglesias;dance pop;2018;64
+555;Miss You (with Major Lazer & Tory Lanez);Cashmere Cat;downtempo;2018;64
+556;Filthy;Justin Timberlake;dance pop;2018;62
+557;Never Be the Same - Radio Edit;Camila Cabello;dance pop;2018;57
+558;Ferrari;Bebe Rexha;dance pop;2018;57
+559;Supplies;Justin Timberlake;dance pop;2018;57
+560;Boom Boom;RedOne;moroccan pop;2018;53
+561;...Ready For It? - BloodPopÂ® Remix;Taylor Swift;pop;2018;52
+562;Drip (feat. Migos);Cardi B;pop;2018;45
+563;Tell Me You Love Me - NOTD Remix;Demi Lovato;dance pop;2018;44
+564;Memories;Maroon 5;pop;2019;99
+565;Lose You To Love Me;Selena Gomez;dance pop;2019;97
+566;Someone You Loved;Lewis Capaldi;pop;2019;96
+567;SeÃ±orita;Shawn Mendes;canadian pop;2019;95
+568;How Do You Sleep?;Sam Smith;pop;2019;93
+569;South of the Border (feat. Camila Cabello & Cardi B);Ed Sheeran;pop;2019;92
+570;Trampoline (with ZAYN);SHAED;electropop;2019;92
+571;Happier;Marshmello;brostep;2019;90
+572;Truth Hurts;Lizzo;escape room;2019;90
+573;Good as Hell (feat. Ariana Grande) - Remix;Lizzo;escape room;2019;90
+574;Higher Love;Kygo;edm;2019;88
+575;Only Human;Jonas Brothers;boy band;2019;87
+576;Beautiful People (feat. Khalid);Ed Sheeran;pop;2019;86
+577;Sucker;Jonas Brothers;boy band;2019;86
+578;Don't Call Me Up;Mabel;dance pop;2019;86
+579;I Don't Care (with Justin Bieber);Ed Sheeran;pop;2019;85
+580;Talk (feat. Disclosure);Khalid;alternative r&b;2019;84
+581;Giant (with Rag'n'Bone Man);Calvin Harris;dance pop;2019;84
+582;Takeaway;The Chainsmokers;electropop;2019;83
+583;All Around The World (La La La);R3HAB;big room;2019;82
+584;Girls Like You (feat. Cardi B);Maroon 5;pop;2019;81
+585;Call You Mine;The Chainsmokers;electropop;2019;81
+586;No Guidance (feat. Drake);Chris Brown;dance pop;2019;81
+587;Antisocial (with Travis Scott);Ed Sheeran;pop;2019;78
+588;Con Calma - Remix;Daddy Yankee;latin;2019;76
+589;Find U Again (feat. Camila Cabello);Mark Ronson;dance pop;2019;75
+590;Cross Me (feat. Chance the Rapper & PnB Rock);Ed Sheeran;pop;2019;75
+591;Nothing Breaks Like a Heart (feat. Miley Cyrus);Mark Ronson;dance pop;2019;69
+592;Kills You Slowly;The Chainsmokers;electropop;2019;67
